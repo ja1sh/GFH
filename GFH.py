@@ -3,16 +3,20 @@ import requests
 import argparse
 import colorama
 
+from re import search
 from termcolor import colored
-from frontend.style import TITLE, ARTBLUE, ARTWARN, ARTGREEN, NOTHOT
 from frontend.strings import art1, art2, email, splitter
 
 colorama.init()
 print (colored(art1, 'green'), colored(art2+email+splitter, 'cyan'))
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-u', help='target endpoint{url/api}', dest='target')
-
+parser.add_argument('-u', help='target endpoint{url/api}', dest='url')
 
 args= parser.parse_args()
-print(args.accumulate())
+
+target = args.url
+print(colored("Scanning Header for: ", 'green')+target)
+
+if not target.startswith("http://", "https://"):
+    print("Please use proper syntax: http:// or https://")
