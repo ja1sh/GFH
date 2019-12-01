@@ -1,0 +1,43 @@
+{
+  "Feature-Policy": {
+      "Description": "",
+      "Risk": "",
+      "Mitigation": ""
+  }
+
+  "X-Content-Type-Options": {
+      "Description": "",
+      "Risk": "",
+      "Mitigation": ""
+  }
+
+  "Content Security Policy": {
+      "Description": "",
+      "Risk": "",
+      "Mitigation": ""
+  }
+
+  "X-Frame-Options": {
+      "Description": "",
+      "Risk": "",
+      "Mitigation": ""
+  }
+
+  "X-XSS-Protection": {
+      "Description": "",
+      "Risk": "",
+      "Mitigation": ""
+  }
+
+  "Expect-CT": {
+      "Description": "",
+      "Risk": "",
+      "Mitigation": ""
+  }
+
+  "HTTP Strict Transport Security (HSTS)": {
+      "Description": "",
+      "Risk": "",
+      "Mitigation": ""
+  }
+}
