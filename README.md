@@ -7,13 +7,13 @@ GoForHead: A lightning fast python tool to find Security Header misconfiguration
 - Built in Python 3;
 - Scans for misconfigurations in Security Headers;
 - Is Fast;
-- Runs on Linux/Windows ;
-- No fancy requirements;
-- Can run from internal network;
+- Runs on Linux/Windows/Mac ;
+- No fancy requirements? Okay, there are few but they look good :);
+- Can be run from internal network;
 
 ###Todo
 - [x] Add parser for target
-- [ ] Add JSON with security header signatures
+- [x] Add JSON with security header signatures
 - [ ] Add JSON parser
 - [ ] Map JSON with 'requests' for every 200
 - [ ] Verbose mode (another parser)
