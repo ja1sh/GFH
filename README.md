@@ -12,5 +12,5 @@ GoForHead: A lightning fast python tool to find Security Header misconfiguration
 - Can be run from internal network;
 
 ###Todo
-- [] Add support for read from file
+- [ ] Add support for read from file
 
